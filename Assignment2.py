@@ -1,5 +1,7 @@
 import requests as req
 
+#Vaikunth's review of this code: 4.21/5
+
 for j in range(50):
     response = req.get("http://3.95.249.159:8000/random_company")
     total = response.text
