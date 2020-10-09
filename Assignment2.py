@@ -19,3 +19,5 @@ for j in range(50):
 result = pd.DataFrame({"Name": data1, "Purpose": data2})
 result.to_csv('Assignment_2.csv')
 
+####### Review for Aniruddh's code : I would suggest creating a single list and appending both Name and purpose to it instead of 2 lists. I review it as 4.5/5.
+# Reviewed by Simran Jariwala
